@@ -70,11 +70,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 
-    */
-    /* max-width: 1600px;
-    /* background: url("../assets/hero-circle.png"), url("../assets/hero-bg.png");
-    background-position: center 100px, center;
-    background-repeat: no-repeat */
 }
 
 .banner_tach {
@@ -257,6 +252,7 @@ header {
 .choose {
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 120px;
 }
 
 .choose_chards {
@@ -267,16 +263,18 @@ header {
     border-radius: 50px;
 
 }
+
 .text_h3 {
-    font-size:1.5rem ;
+    font-size: 1.5rem;
     font-weight: 700;
-    color:rgba(255, 255, 255, 1) ;
+    color: rgba(255, 255, 255, 1);
 
 }
+
 .choose_chards p {
-     font-size:1rem ;
+    font-size: 1rem;
     font-weight: 400;
-    color:rgba(255, 255, 255, 0.668) ;
+    color: rgba(255, 255, 255, 0.668);
 }
 
 
@@ -290,17 +288,21 @@ header {
     grid-column: span 2;
 }
 
- /* featured cards css  */
- .featured{
+
+
+/* featured cards css  */
+.featured {
     max-width: 1600px;
-    margin: 120px;
- }
- .featured_contant{
-     max-width: 1200px;
+    /* margin-top: 100px; */
+}
+
+.featured_contant {
+    max-width: 1200px;
     margin: 0 auto;
 
- }
-.featured_cards{
+}
+
+.featured_cards {
 
     display: flex;
     justify-content: center;
@@ -308,15 +310,18 @@ header {
     gap: 30px;
 
 }
-.featured_cards{
+
+.featured_cards {
     width: 380px;
     margin: 0 auto;
 }
-.featured_card_video{
+
+.featured_card_video {
     background-color: rgba(37, 13, 68, 1);
     border-radius: 20px;
 
 }
+
 .video_fream {
     border-radius: 20px;
 }
@@ -325,16 +330,57 @@ header {
     padding-left: 20px;
     margin-bottom: 40px;
 }
-.featured_card_video  p {
-     font-size:1rem ;
+
+.featured_card_video p {
+    font-size: 1rem;
     font-weight: 400;
-    color:rgba(255, 255, 255, 0.668) ;
+    color: rgba(255, 255, 255, 0.668);
 }
-.featured_card_video samp{
-     font-size:1rem ;
+
+.featured_card_video samp {
+    font-size: 1rem;
     font-weight: 400;
     color: rgba(0, 255, 136, 1);
     padding-bottom: 50px;
+}
+
+/* host css style  */
+.host {
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.hosting_items {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+}
+
+.host_name {
+    color: rgba(255, 255, 255, 1);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.host_item {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.668);
+}
+
+
+.logo_img img {
+    border: 2px solid #412567;
+    border-radius: 50%;
+    padding: 10px;
+
+
 }
 
 
@@ -401,38 +447,67 @@ header {
 
     /* why .choose er jonno  */
 
-.choose_Container {
-    /* width: 400px; */
-    margin: 10px;
-    padding: 0px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    .choose_Container {
+        /* width: 400px; */
+        margin: 10px;
+        padding: 0px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr);
 
 
+    }
+
+    #headphone {
+        grid-row: span 1;
+    }
+
+    #mobile_phone,
+    #location,
+    #Interviews {
+        grid-column: span 1;
+    }
+
+    .chs_head {
+
+        font-size: 2rem;
+        font-weight: 700;
+
+    }
+
+    .choose_chards h3 {
+        font-size: 1rem;
+
+    }
+
+    .choose_chards p {
+        font-size: 12px;
+
+    }
+
+    /* featured cards add  */
+    .featured_cards {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .featured_card_video {
+        margin: 0px;
+        padding: px;
+    }
+
+
+  /* host style; */
+  .hosting_items {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  }
+.host_contant {
+    text-align: center;
 }
-#headphone{
-    grid-row: span 1;
-}
-#mobile_phone,
-#location,
-#Interviews {
-    grid-column: span 1;
-}
 
-.chs_head {
-
-    font-size: 2rem;
-    font-weight: 700;
-
-}
-.choose_chards h3 {
-    font-size:1rem ;
-
-}
-.choose_chards p {
-     font-size:12px ;
-
-}
 
 
 
