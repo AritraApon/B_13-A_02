@@ -27,6 +27,7 @@ header {
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid rgb(48, 29, 75);
+    max-width: 1600px;
 }
 
 .logo {
@@ -66,9 +67,10 @@ header {
 
 /* banner css style  */
 .banner {
+    max-width: 1600px;
     background-image: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 
 }
 
@@ -348,7 +350,7 @@ header {
 .host {
     max-width: 1600px;
     margin: 0 auto;
-    margin-top: 120px;
+    /* margin-top: 120px; */
 }
 
 .hosting_items {
@@ -382,6 +384,44 @@ header {
 
 
 }
+ /* footer section style  */
+
+ footer {
+       max-width: 1600px;
+       background-image: url(./assets/footer-bg.png);
+       margin-top: 120px;
+ }
+.brand_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+
+}
+.brand_logo {
+    font-size: 5rem;
+     margin: 0px;
+}
+.socal_links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.753);
+}
+.footer-contant{
+    padding: 40px;
+}
+
+.footer-contant p {
+     color: rgba(255, 255, 255, 0.753);
+}
+
+
+
+
+
 
 
 
@@ -496,7 +536,9 @@ header {
         margin: 0px;
         padding: px;
     }
-
+.video_fream{
+    width: 100%;
+}
 
   /* host style; */
   .hosting_items {
@@ -508,7 +550,16 @@ header {
     text-align: center;
 }
 
+/* footer style  */
+.socal_links{
 
+    grid-template-columns: repeat(2, 1fr);
 
+}
+.brand_logo{
+  font-size: 3rem;
+  margin-top: 0;
+  padding-top: 0;
+}
 
 }
