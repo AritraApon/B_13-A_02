@@ -210,7 +210,7 @@ header {
     align-items: center;
     margin-top: 80px;
     text-align: center;
-    border:1px solid rgb(53, 33, 81);
+    border: 1px solid rgb(53, 33, 81);
     padding: 80px;
 }
 
@@ -226,6 +226,115 @@ header {
     font-weight: 400;
     text-align: center;
     color: rgba(255, 255, 255, 0.836);
+}
+
+
+/* grid cards css */
+
+.why_choose {
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: rgba(35, 14, 61, 1);
+}
+
+.chs_head {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 120px;
+}
+
+.choose_Container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+.choose {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.choose_chards {
+
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    color: aliceblue;
+    border-radius: 50px;
+
+}
+.text_h3 {
+    font-size:1.5rem ;
+    font-weight: 700;
+    color:rgba(255, 255, 255, 1) ;
+
+}
+.choose_chards p {
+     font-size:1rem ;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.668) ;
+}
+
+
+#headphone {
+    grid-row: span 2;
+}
+
+#mobile_phone,
+#location,
+#Interviews {
+    grid-column: span 2;
+}
+
+ /* featured cards css  */
+ .featured{
+    max-width: 1600px;
+    margin: 120px;
+ }
+ .featured_contant{
+     max-width: 1200px;
+    margin: 0 auto;
+
+ }
+.featured_cards{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.featured_cards{
+    width: 380px;
+    margin: 0 auto;
+}
+.featured_card_video{
+    background-color: rgba(37, 13, 68, 1);
+    border-radius: 20px;
+
+}
+.video_fream {
+    border-radius: 20px;
+}
+
+.contants {
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+.featured_card_video  p {
+     font-size:1rem ;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.668) ;
+}
+.featured_card_video samp{
+     font-size:1rem ;
+    font-weight: 400;
+    color: rgba(0, 255, 136, 1);
+    padding-bottom: 50px;
 }
 
 
@@ -269,23 +378,62 @@ header {
     .tach_text {
         flex-direction: column;
     }
- /* card css  */
-.about_cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
+
+    /* card css  */
+    .about_cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+
+    }
+
+    .about_title {
+        font-size: 2rem;
+
+    }
+
+    .about_text,
+    .about_text_last {
+
+        padding: 20px;
+    }
+
+    /* why .choose er jonno  */
+
+.choose_Container {
+    /* width: 400px; */
+    margin: 10px;
+    padding: 0px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
 
 }
-.about_title {
+#headphone{
+    grid-row: span 1;
+}
+#mobile_phone,
+#location,
+#Interviews {
+    grid-column: span 1;
+}
+
+.chs_head {
+
     font-size: 2rem;
+    font-weight: 700;
 
 }
-.about_text,
-.about_text_last {
-    
-    padding: 20px;
+.choose_chards h3 {
+    font-size:1rem ;
+
 }
+.choose_chards p {
+     font-size:12px ;
+
+}
+
 
 
 }
