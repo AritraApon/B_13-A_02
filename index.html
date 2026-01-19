@@ -1,12 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechWave</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
 
+<body class="inter">
+
+    <header class="flex">
+        <!-- logo  -->
+        <h1 class="logo">Tech<span class="logo_color">Wave</span></h1>
+        <!-- navbar -->
+        <nav>
+            <ul class="navbar flex ">
+                <li class="nav_items"><a href="#">About</a></li>
+                <li class="nav_items"><a href="#">Episodes</a></li>
+                <li class="nav_items"><a href="#">Host</a></li>
+            </ul>
+        </nav>
+        <!-- button  -->
+        <button class="btn "> Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        <img src="./assets/hamburger-menu.png" alt="" class="hamburger">
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner_tach flex">
+                <div class="banner_cercle_speaker">
+                    <button class="new_btn">New</button>
+                    <div class="hero_circle">
+                        <img src="./assets/hero-circle.png" alt="$">
+                    </div>
+                    <div class="micro">
+                        <img src="./assets/microphone.png" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="banner_content">
+                <h1 class="company_nam">TachWave</h1>
+                <p class="tach_text">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+
+            </div>
+            <div class="bttttn flex">
+                <button class="spotify_btn btn ">
+                    <i class="fa-brands fa-spotify"></i>
+                    Listen on Spotify</button>
+                <a href="#" class="Subscribe_btn"> <i class="fa-regular fa-envelope"></i>
+                    Subscribe</a>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h1 class="about_title">About the Podcast</h1>
+                <p class="about_text">TechWave is your go-to podcast for staying ahead in the fast-paced world of
+                    technology. <br>
+                    We break down complex topics into digestible insights, explore productivity strategies that actually
+                    work, <br>
+                    and share stories of personal growth from industry leaders.
+                </p>
+                <p class="about_text_last">
+                    Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+            </div>
+            <div class="about_cards">
+                <div class="card_abouts">
+                    <h1>150K+</h1>
+                    <p>Monthly Listeners</p>
+                </div>
+                <div class="card_abouts">
+                       <h1>200+</h1>
+                    <p>Episodes Published</p>
+                </div>
+                <div class="card_abouts">
+                       <h1>4.9★</h1>
+                    <p>Average Rating</p>
+                </div>
+                <div class="card_abouts">
+                       <h1>50+</h1>
+                    <p>Industry Experts</p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
